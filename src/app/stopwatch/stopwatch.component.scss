@@ -1,0 +1,74 @@
+.stopwatch {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 23px;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 270px;
+  width: 270px;
+
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+.time {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.gold {
+  font-weight: 900;
+
+  color: #f2c94c;
+  text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+  width: 287px;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+.waitBtn {
+  height: 67px;
+  width: 67px;
+  border-radius: 50%;
+  margin: 0 5px;
+  font-size: 13px;
+}
+
+.isWaitDisabled {
+  border: 1px solid #E8E821;
+  color: #e8e821;
+}
+
+.isWaitActive {
+  border: 1px solid #16c609;
+  color: #16C609;
+}
+
+#playButton {
+  display: block;
+}
+
+#pauseButton {
+  display: none;
+}
